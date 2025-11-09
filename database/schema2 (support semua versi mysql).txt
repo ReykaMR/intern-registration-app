@@ -1,0 +1,1 @@
+file schema2.sql (support semua versi mysql)

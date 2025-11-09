@@ -1,0 +1,18 @@
+{
+  "name": "intern-registration-app",
+  "version": "1.0.0",
+  "description": "Intern Registration App",
+  "type": "module",
+  "scripts": {
+    "db:setup": "node backend/scripts/setupDatabase.js",
+    "db:seed": "node backend/scripts/seedData.js",
+    "db:reset": "npm run db:setup && npm run db:seed",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
