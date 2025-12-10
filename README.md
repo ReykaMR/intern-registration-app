@@ -1,7 +1,18 @@
 # Intern Registration System
 Sistem Pengelolaan Magang
 
+## 📸 Tampilan Aplikasi
+
+<table align="center">
+  <tr>
+    <td><img src="screenshot-aplikasi/foto1.png" alt="Screenshot 1" width="100%" height="250"></td>
+    <td><img src="screenshot-aplikasi/foto2.png" alt="Screenshot 2" width="100%" height="250"></td>
+    <td><img src="screenshot-aplikasi/foto3.png" alt="Screenshot 3" width="100%" height="250"></td>
+  </tr>
+</table>
+
 ## Teknologi yang Digunakan
+
 ### Frontend
 - React JS
 - Bootstrap 5
@@ -15,6 +26,7 @@ Sistem Pengelolaan Magang
 - MySQL
 
 ## Instalasi dan Setup
+
 ### Langkah 1: Clone Repository
 ```bash
 git clone https://github.com/ReykaMR/intern-registration-app.git
